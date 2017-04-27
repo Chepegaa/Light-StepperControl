@@ -31,9 +31,9 @@ fire.start(0)
 
 # PubNub
 
-pubnub = Pubnub(publish_key='demo', subscribe_key='demo')
+pubnub = Pubnub(publish_key='pub-c-7581ef06-2ca4-4472-834c-74b43e7d85df', subscribe_key='sub-c-eba3f01a-27a0-11e7-bc52-02ee2ddab7fe')
 
-channel = 'pi-house'
+channel = 'Channel-x1izfsa8x'
 
 def _callback(m, channel):
     print(m)
