@@ -42,6 +42,7 @@ def _callback(m, channel):
 
     if m['item'] == 'light-living':
         living.ChangeDutyCycle(dc)
+        print "Variando luces"
 
     elif m['item'] == 'light-porch':
         porch.ChangeDutyCycle(dc)
