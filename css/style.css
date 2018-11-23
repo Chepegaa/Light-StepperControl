@@ -339,12 +339,12 @@ input[type=checkbox] {
 	padding-left: 42px;
 }
 label[for=airesalon1] .toggle-button:before {
-	content: "ENCENDIDO";
+	content: "ON";
 	padding-left: 10px;
 
 }
 label[for=airesalon1] .toggle-button:after {
-	content: "APAGADO";
+	content: "OFF";
 	padding-left: 4px;
 }
 .toggle-button .switch { 
