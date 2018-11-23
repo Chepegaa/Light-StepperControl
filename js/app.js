@@ -8,7 +8,7 @@
 
 	var pubnub = PUBNUB(settings);
 
-	var door = document.getElementById('door');
+	var airesalon1 = document.getElementById('airesalon1');
 	var lightLiving = document.getElementById('lightLiving');
 	var lightPorch = document.getElementById('lightPorch');
 	var fireplace = document.getElementById('fireplace');
@@ -35,8 +35,8 @@
 
 	// UI EVENTS
 
-	door.addEventListener('change', function(e){
-		publishUpdate({item: 'door', open: this.checked});
+	airesalon1.addEventListener('change', function(e){
+		publishUpdate({item: 'airesalon1', open: this.checked});
 	}, false);
 
 	lightLiving.addEventListener('change', function(e){
