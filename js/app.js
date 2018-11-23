@@ -9,8 +9,8 @@
 	var pubnub = PUBNUB(settings);
 
 	var airesalon1 = document.getElementById('airesalon1');
-	var lightLiving = document.getElementById('lightLiving');
-	var lightPorch = document.getElementById('lightPorch');
+	var airesalon2 = document.getElementById('airesalon2');
+	var airesalon3 = document.getElementById('airesalon3');
 	var fireplace = document.getElementById('fireplace');
 
 	pubnub.subscribe({
@@ -40,11 +40,11 @@
 	}, false);
 
 	lightLiving.addEventListener('change', function(e){
-		publishUpdate({item: 'light-living', brightness: +this.value});
+		publishUpdate({item: 'airesalon2', brightness: this.value});
 	}, false);
 
 	lightPorch.addEventListener('change', function(e){
-		publishUpdate({item: 'light-porch', brightness: +this.value});
+		publishUpdate({item: 'airesalon3', brightness: this.value});
 	}, false);
 
 	fireplace.addEventListener('change', function(e){
