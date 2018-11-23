@@ -25,20 +25,6 @@
 		}
 	})
 
-	/* 
-		Data settings:
-
-		Servo
-
-		item: 'door'
-		open: true | false
-
-		LED
-
-		item: 'light-*'
-		brightness: 0 - 10
-
-	*/
 
 	function publishUpdate(data) {
 		pubnub.publish({
