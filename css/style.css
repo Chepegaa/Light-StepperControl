@@ -338,12 +338,12 @@ input[type=checkbox] {
 	content: "OFF";
 	padding-left: 42px;
 }
-label[for=door] .toggle-button:before {
+label[for=airesalon1] .toggle-button:before {
 	content: "ENCENDIDO";
 	padding-left: 10px;
 
 }
-label[for=door] .toggle-button:after {
+label[for=airesalon1] .toggle-button:after {
 	content: "APAGADO";
 	padding-left: 4px;
 }
